@@ -34,7 +34,7 @@ To make the model more accurate we would like to use images augmentation. We are
 ## Segmentation Model:
 1. For classification problem desided to use Squential with two Dense layers.
 2. For segmenattion problem decided to build [U-Net Segmentation Model](https://github.com/qubvel/segmentation_models.pytorch) with the `VGG16` and `mobilenet_v2` encoder and pre-trained weights from `imagenet`.
-3. For future implementation desided to try to use [U-2 Net](https://github.com/NathanUA/U-2-Net), [paper is here](https://arxiv.org/pdf/2005.09007v2.pdf)
+3. For future implementation desided to try to use [U-2 Net](https://github.com/NathanUA/U-2-Net), [paper is here](https://arxiv.org/pdf/2005.09007v2.pdf).
 
 ## Author:
 [Sofiia Petryshyn](https://github.com/SOFIAshyn/)
