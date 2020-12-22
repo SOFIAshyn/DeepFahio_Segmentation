@@ -38,3 +38,6 @@ To make the model more accurate we would like to use images augmentation. We are
 
 ## Author:
 [Sofiia Petryshyn](https://github.com/SOFIAshyn/)
+
+## Presentation:
+[Link for the presentation](https://docs.google.com/presentation/d/1Tun6r_RYNEi0L3HHSdCB_FcBdyppUJHD01nZqOgrJv8/edit?usp=sharing)
