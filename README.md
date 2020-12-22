@@ -25,6 +25,7 @@ Steps to implement of such a solution:
 * Number of test images: xxx
 * Number of classes: 46
 * Images sizes: differ
+Right now in `Segmentation_v2.ipynb` you can find a small implementation that segment two classes `long-sleeve sweater` and `short-sleeve sweater`, its training set consists of 1600 images, validation: 200, testing: 200.
 
 ## Data Augmentation
 To make the model more accurate we would like to use images augmentation. We are using
