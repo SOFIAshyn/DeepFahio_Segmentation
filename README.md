@@ -7,13 +7,13 @@ Steps to implement of such a solution:
 2. DeepFashion2 dataset segmentation: `U-Net-Segmentation.ipynb`
 3. IMatherialist dataset segmentation: `Segmentation_v2.ipynb`
 
-## Dataset:
+## Datasets:
 1. [MNIST dataset](https://www.tensorflow.org/api_docs/python/tf/keras/datasets/fashion_mnist)
 * Number of training images: 60000
 * Number of testing images: 10000
 * Number of classes: 10
 * Images sizes: 28x28
-2. [DeepFashion2](https://github.com/switchablenorms/DeepFashion2) dataset. Main description of the dataset:
+2. [DeepFashion2](https://github.com/switchablenorms/DeepFashion2)
 * Number of training images: 191961
 * Number of validation images: 32153
 * Number of test images: 62629
@@ -33,6 +33,7 @@ To make the model more accurate we would like to use images augmentation. We are
 ## Segmentation Model:
 1. For classification problem desided to use Squential with two Dense layers.
 2. For segmenattion problem decided to build [U-Net Segmentation Model](https://github.com/qubvel/segmentation_models.pytorch) with the `VGG16` and `mobilenet_v2` encoder and pre-trained weights from `imagenet`.
+3. For future implementation desided to try to use [U-2 Net](https://github.com/NathanUA/U-2-Net), [paper is here](https://arxiv.org/pdf/2005.09007v2.pdf)
 
 ## Author:
 [Sofiia Petryshyn](https://github.com/SOFIAshyn/)
