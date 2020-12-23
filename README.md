@@ -20,9 +20,8 @@ Steps to implement of such a solution:
 * Number of classes: 13
 * Images sizes: differ
 3. [IMatherialist](https://www.kaggle.com/c/imaterialist-fashion-2019-FGVC6/data)
-* Number of training images: xxx
-* Number of validation images: xxx
-* Number of test images: xxx
+* Number of training images: 333400
+* Number of test images: 3200
 * Number of classes: 46
 * Images sizes: differ
 Right now in `Segmentation_v2.ipynb` you can find a small implementation that segment two classes `long-sleeve sweater` and `short-sleeve sweater`, its training set consists of 1600 images, validation: 200, testing: 200.
